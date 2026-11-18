@@ -1,10 +1,8 @@
 import os
 import subprocess
 
-# Ask for the file you want to turn into an exe
 file_path = input("Enter the name of your code file (e.g., game.py or app.cpp): ")
 
-# Split the filename to see its extension
 name, extension = os.path.splitext(file_path)
 
 if extension == ".py":
